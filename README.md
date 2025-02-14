@@ -4,9 +4,13 @@ This section of my home lab documentation demonstrates the process of creating a
 </p>
 
 <H2>Objectives</H2>
+
 --Create another VM and install Windows 10 on the PC.  
+
 --Join a Windows 10 PC to our domain.
+
 --Use Server Manager to manage server roles and features in a domain environment.
+
 --Perform basic administrative tasks such as user management and role configuration from a client machine using RSAT.
 
 
@@ -110,7 +114,7 @@ Choose the disk and click "Next" and wait for the installation to complete.
 
 13.
    <p align="center">
-   <img src=" https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Thirteen.png?raw=true"  height="80%" width="80%"/>
+   <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Thirteen.png?raw=true"  height="80%" width="80%"/>
    <br />
    <br />
    
