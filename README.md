@@ -233,12 +233,103 @@ The set up is done and the Windows 10 PC is all set.
    <br />
    <br />
 
+Now we have our windows PC setup, we'll go ahead and join it to the domain "junicetechie.com". The first step is to assign a static IP Address (10.0.2.16) to our client machine and use the IP Address of the domain controller (10.0.2.15) as the DNS server. 
+
+28.
+   <p align="center">
+   <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Twenty8.PNG?raw=true"  height="80%" width="80%"/>
+   <br />
+   <br />
+
+Secondly, we will create a NAT Network and ensure both the client machine and the Domain Controller are attached to it to enable communication between them. To do this, open the "Tools" then "Network" and cross over to "NAT Networks" and click on "Create" at the top to create a new NAT Network and name it "Homelab" and click "Apply".
+
+29.
+   <p align="center">
+   <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Twenty9.PNG?raw=true"  height="80%" width="80%"/>
+   <br />
+   <br />
+
+Next, we are going to attach both of the VMs to this network. Click on a VM and then go to "Settings" and choose "Network". Then, on the "Adapter 1", and on "Attached to:" open the drop-down and choose "NAT Network". Then choose the Name of the NAT Network we created "Home Lab" and click "OK"   
+30.
+   <p align="center">
+   <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Thirty.PNG?raw=true"  height="80%" width="80%"/>
+   <br />
+   <br />  
+
+31.
+   <p align="center">
+   <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Thirty1.PNG?raw=true"  height="80%" width="80%"/>
+   <br />
+   <br /> 
+Now, our VMs are on the same network and they can communicate successfully. We"ll go ahead and join the Client to the domain. Open "Settings" on the computer and choose "Accounts".
+Then open "Access work or school" and click "Connect".
 
 
+32.
+   <p align="center">
+   <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Thirty2.PNG?raw=true"  height="80%" width="80%"/>
+   <br />
+   <br /> 
+
+33.
+   <p align="center">
+   <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Thrity3.PNG?raw=true"  height="80%" width="80%"/>
+   <br />
+   <br /> 
+
+Choose to join the option to join the device to a local Active Directory Domain.
 
 
+34.
+   <p align="center">
+   <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Thrity4.PNG?raw=true"  height="80%" width="80%"/>
+   <br />
+   <br /> 
+
+ Enter the name of the domain "junicetechie.com"
+
+  
+35.
+   <p align="center">
+   <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Thirty5.png?raw=true"  height="80%" width="80%"/>
+   <br />
+   <br />
+
+ Provide login credentials of the domain controller for authentication and click "OK"
 
 
+36.
+   <p align="center">
+   <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Thirty6.png?raw=true"  height="80%" width="80%"/>
+   <br />
+   <br /> 
+
+   Here click "Skip". We want the PC to authenticate credentials of the users from the domain.
+
+
+37.
+   <p align="center">
+   <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Thirty7.png?raw=true"  height="80%" width="80%"/>
+   <br />
+   <br />
+
+  Restart now for the changes to take effect.
+
+38.
+   <p align="center">
+   <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Forty.png?raw=true"  height="80%" width="80%"/>
+   <br />
+   <br />
+
+ The PC is now joined to the domain successfully. 
+
+39.
+   <p align="center">
+   <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Forty1.png?raw=true"  height="80%" width="80%"/>
+   <br />
+   <br /> 
+
+Now in the next lab we will create new accounts in Active Directory and access the accounts from this Client PC. 
 
 
 
