@@ -90,14 +90,14 @@ On the next page, select "I don't have a product key" and click next.
 Then on the next page, make sure to select "Windows 10 Pro", click "Next" and check the box to accept terms and conditions.
 
 
-10.
-   <p align="center">
+
+
+10.<p align="center">
    <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Ten.png?raw=true"  height="80%" width="80%"/>
    <br />
    <br />
 
-11.
-   <p align="center">
+11.<p align="center">
    <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Eleven.PNG?raw=true"  height="80%" width="80%"/>
    <br />
    <br />
@@ -105,6 +105,7 @@ Then on the next page, make sure to select "Windows 10 Pro", click "Next" and ch
 Select "Custom: Install Windows only," then click Next to begin the installation of Windows 10.
 
 12.
+
    <p align="center">
    <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Twelve.PNG?raw=true"  height="80%" width="80%"/>
    <br />
@@ -113,6 +114,7 @@ Select "Custom: Install Windows only," then click Next to begin the installation
 Choose the disk and click "Next" and wait for the installation to complete.
 
 13.
+  
    <p align="center">
    <img src="https://github.com/Eunice-Kamore/Creating-Windows-10-VM/blob/main/Images/Thirteen.png?raw=true"  height="80%" width="80%"/>
    <br />
